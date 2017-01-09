@@ -1,0 +1,13 @@
+[package]
+authors = ["Jorge Aparicio <japaricious@gmail.com>"]
+description = "Minimal std re-implementation for testing (q)emulated Cortex-M processors"
+documentation = "https://docs.rs/cortest"
+keywords = ["arm", "cortex-m", "qemu", "std"]
+license = "MIT OR Apache-2.0"
+name = "cortest"
+repository = "https://github.com/japaric/cortest"
+version = "0.1.0"
+
+[dependencies.compiler_builtins]
+features = ["mem"]
+git = "https://github.com/rust-lang-nursery/compiler-builtins"
