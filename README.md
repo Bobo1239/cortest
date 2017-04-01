@@ -1,3 +1,14 @@
+# Status
+
+This project has been **DEPRECATED** in favor of [utest], which is a more
+general no-std testing framework.
+
+[utest]: https://github.com/japaric/utest
+
+-- @japaric, 2017-04-01
+
+---
+
 # `cortest`
 
 > Minimal re-implementation of `std` for testing (q)emulated Cortex-M processors
