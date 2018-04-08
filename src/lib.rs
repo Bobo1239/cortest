@@ -9,8 +9,6 @@
 #![feature(lang_items)]
 #![no_std]
 
-extern crate compiler_builtins;
-
 pub mod io;
 pub mod macros;
 pub mod process;
